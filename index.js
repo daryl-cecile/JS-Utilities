@@ -52,7 +52,7 @@ export function cloneObject(sourceObj) {
  *	GetIdentifier('xxxx-xxxx-xxxxxxxx-xxxx-xxxx');
  *
  */
-function GenIdentifier(pattern){
+export function GenIdentifier(pattern){
 	let final = pattern;
   
 	function mk(length){
